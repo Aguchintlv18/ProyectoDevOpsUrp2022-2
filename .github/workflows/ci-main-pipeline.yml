@@ -124,5 +124,5 @@ jobs:
              k8s-manifest/deployment.yaml
              k8s-manifest/ingress-dev.yaml
              k8s-manifest/service.yaml
-          images: 'rcronald/block-master:main'
+          images: 'aguchintlv/yape:main'
           pull: false
