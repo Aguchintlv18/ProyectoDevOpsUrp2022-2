@@ -16,8 +16,8 @@ export const Login = () => {
   }
 
   useEffect(() => {
-    if (clave.length == 6) {
-      if (clave == "123456") {
+    if (clave.length === 6) {
+      if (clave === "123456") {
         navigate("/home", { replace: true });
       } else {
         alert("contraseña equivocada");
