@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: yape-dev.20.72.99.142.nip.io
+  - host: yape-dev.20.121.177.186.nip.io
     http:
       paths:
       - path: /
