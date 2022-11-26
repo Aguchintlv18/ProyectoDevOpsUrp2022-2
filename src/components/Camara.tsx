@@ -6,6 +6,7 @@ export const Camara = () => {
   var scanner: QrScanner | null = null;
   useEffect(() => {
     if (videoElem != null) {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       scanner = new QrScanner(videoElem, (result) =>
         console.log("decoded qr code:", result)
       );

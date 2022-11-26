@@ -24,6 +24,7 @@ export const Login = () => {
         setClave("");
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [clave]);
 
   function numeroback() {

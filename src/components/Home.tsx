@@ -3,8 +3,6 @@ import "../App.css";
 
 import { items } from "../data/data";
 import rq from "../img/qr.png";
-import flecha from "../img/flecha.svg";
-import ojo from "../img/ojo.svg";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {

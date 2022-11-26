@@ -35,7 +35,7 @@ export const Yapeado = () => {
   }
 
   useEffect(() => {
-    var animation = bodymovin.loadAnimation({
+    bodymovin.loadAnimation({
       container: document.getElementById("bm"),
       renderer: "svg",
       loop: true,

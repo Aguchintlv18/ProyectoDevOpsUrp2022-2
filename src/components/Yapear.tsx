@@ -5,7 +5,7 @@ import "../App.css";
 export const Yapear = () => {
   let navigate = useNavigate();
 
-  const [nombreya, setNombreya] = useState("");
+  const [nombreya] = useState("");
   const [yapemonto, setYapemonto] = useState("");
   const [yapedescri, setYapedescri] = useState("");
   const [inputdisabled, setInputdisabled] = useState(true);
@@ -64,8 +64,8 @@ export const Yapear = () => {
 
     if (fecha.getHours() > 12) {
       fechas = fechas + (fecha.getHours() - 12) + ":" + minutos + " pm";
-    } else if (fecha.getHours() == 0) {
-      fechas = fechas + "12" + ":" + minutos + " am";
+    } else if (fecha.getHours() === 0) {
+      fechas = `${fechas} 12 : ${minutos} am`;
     } else {
       fechas = fechas + fecha.getHours() + ":" + minutos + " am";
     }
