@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: yape
+spec:
+  selector:
+    matchLabels:
+      name: yape
+  template:
+    metadata:
+      labels:
+        name: yape
+    spec:
+      containers:
+        - image: aguchintlv/yape
+          name: yape
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+              protocol: TCP
