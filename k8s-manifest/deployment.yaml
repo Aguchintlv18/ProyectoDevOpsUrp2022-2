@@ -12,7 +12,7 @@ spec:
         name: yape
     spec:
       containers:
-        - image: aguchintlv/yape
+        - image: aguchintlv/yape:main
           name: yape
           imagePullPolicy: Always
           ports:
