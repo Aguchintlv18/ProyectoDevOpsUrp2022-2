@@ -24,15 +24,15 @@ export let items = [
     pone: "h3monto",
   },
   {
-    nombre: "Claudia Rojas Fuentes",
-    fecha: "03 Ago. 2022 - 10:48 am - Carbon",
-    monto: "S/ 28.00",
+    nombre: "John Perez Quispe",
+    fecha: "03 Ago. 2022 - 10:48 am - kine",
+    monto: "- S/ 500.00",
     pone: "h3monto",
   },
   {
     nombre: "Joseph Santos Vera",
     fecha: "01 Ago. 2022 - 07:10 pm - Pizza",
-    monto: "- S/ 55.00",
+    monto: "S/ 30.00",
     pone: "h3montone",
   },
   {
