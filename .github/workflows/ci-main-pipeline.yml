@@ -126,3 +126,5 @@ jobs:
              k8s-manifest/service.yaml
           images: 'aguchintlv/yape:main'
           pull: false
+      - name: actualizar despliegue
+        run: kubectl rollout restart deployment yape
